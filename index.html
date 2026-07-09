@@ -66,12 +66,25 @@
         }
 
         .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
             font-size: 1.6rem;
             font-weight: 900;
             letter-spacing: 2px;
             text-transform: uppercase;
         }
-        .logo span { color: var(--accent-glow); }
+
+        .logo-icon {
+            width: 34px;
+            height: 34px;
+            display: block;
+            object-fit: contain;
+        }
+
+        .logo .dot {
+            color: var(--accent-glow);
+        }
 
         .nav-links {
             display: flex;
